@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style/CSS/main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+  <title>Filter</title>
+</head>
+<body>
+<div class="container-fluid">
+  <div class="header">
+    <div class="logo">HaveFun</div>
+    <div class="searchbox">
+      <div class="search-icon">
+        <i class="fas fa-search"></i>
+      </div>
+      <div class="search-text">
+        <input  class="search-text-area" placeholder="Explore your own activities">
+      </div>
+    </div>
+  </div>
+  <div class="content-nav">
+    <nav class="nav flex-column navigation">
+    <div class="nav-area">
+      <div class="nav-title">
+        <span>Location</span>
+        <i class="fas fa-minus title-icon"></i>
+      </div>      
+      <form action="#">
+        <select name="location" class="location-select">
+          <option value="Taiwan" selected>Taiwan</option>
+          <option value="Japan">Japan</option>
+        </select>
+      </form>
+    </div>
+    <div class="nav-area">
+      <div class="nav-title">
+        <span>Date</span>  
+        <i class="fas fa-plus title-icon"></i>
+      </div>      
+      <div class="date-from-to">
+        <div class="date-duration">
+          <div class="from-to">from</div>
+          <input type="date" class="date-select">
+        </div>
+        <div class="date-duration">
+          <div class="from-to">to</div>
+          <input type="date" class="date-select">
+        </div>
+      </div>
+    </div>
+    <div class="nav-area">
+      <div class="nav-title">
+        <span class="nav-title">Categories</span>
+        <i class="fas fa-plus title-icon"></i>
+      </div>      
+      <div class="categories">
+        <div class="form-check categories-check">
+          <input class="form-check-input" type="checkbox">
+          <label class="form-check-label">
+            All
+          </label>
+        </div>
+        <div class="form-check categories-check">
+          <input class="form-check-input" type="checkbox">
+          <label class="form-check-label">
+           Entertainment
+          </label>
+        </div>
+        <div class="form-check categories-check">
+          <input class="form-check-input" type="checkbox">
+          <label class="form-check-label">
+            Food
+          </label>
+        </div>
+        <div class="form-check categories-check">
+          <input class="form-check-input" type="checkbox">
+          <label class="form-check-label">
+            Learning
+          </label>
+        </div>
+        <div class="form-check categories-check">
+          <input class="form-check-input" type="checkbox">
+          <label class="form-check-label">
+            Outdoor
+          </label>
+        </div>        
+      </div>
+    </div>
+  </nav>
+    <div class="content">
+      <div class="search-result-tag">
+        <div class="search-result">Showing 15 results by…</div>
+        <div class="search-tag">
+          <div class="tag">Kaohsiung<i class="far fa-times-circle"></i></div>
+          <div class="tag">Entertainment<i class="far fa-times-circle"></i></div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="item-img-box">
+          <img class="item-img" src="https://dummyimage.com/400x220/7828b4/fff" alt="item-image">
+        </div>
+        <div class="item-body">
+          <h5 class="item-title">Kogi Cosby sweater.</h5>
+          <div class="item-text">
+            <p>Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu. Curabitur fermentum suscipit est, tincidunt mattis lorem luctus id. Donec eget massa a diam condimentum pretium. Aliquam erat volutpat. Integer ut tincidunt orci. Etiam tristique, elit ut consectetur iaculis, metus lectus mattis justo, vel mollis eros neque quis augue. Sed lobortis ultrices lacus, a placerat metus rutrum sit amet. Aenean ut suscipit justo.</p>
+          </div>
+          <div class="author-tag">
+            <div class="author">Ethan Foster</div>
+            <div class="item-tag">Entertainment</div>
+            </div>
+          <div class="item-imformation">
+            <div class="item-location">
+              <i class="fas fa-map-marker-alt"></i>
+              <span class="imformation">Kaohsiung City</span>
+            </div>
+            <div class="item-date">
+              <i class="far fa-calendar-alt"></i>
+              <span class="imformation">2018/5/24 - 2018/5/31</span>
+            </div>
+          </div>
+          </div>
+        </div>
+      <div class="item">
+        <div class="item-img-box">
+          <img class="item-img" src="https://dummyimage.com/400x220/7828b4/fff" alt="item-image">
+        </div>
+        <div class="item-body">
+          <h5 class="item-title">In the tumultuous business.</h5>
+          <div class="item-text">
+            <p>It was a humorously perilous business for both of us. For, before we proceed further, it must be said that the monkey-rope was fast at both ends; fast to Queequeg's broad canvas belt, and fast to my narrow leather one. So that for better or for worse, we two, for the time, were wedded; and should poor Queequeg sink to rise no more, then both usage and honour demanded, that instead of cutting the cord, it should drag me down in his.</p>
+          </div>
+          <div class="author-tag">
+            <div class="author">Herman Cobb</div>
+            <div class="item-tag">Entertainment</div>
+            </div>
+          <div class="item-imformation">
+            <div class="item-location">
+              <i class="fas fa-map-marker-alt"></i>
+              <span class="imformation">Kaohsiung City</span>
+            </div>
+            <div class="item-date">
+              <i class="far fa-calendar-alt"></i>
+              <span class="imformation">2018/5/24 - 2018/5/31</span>
+            </div>
+          </div>
+          </div>
+        </div>
+      <div class="item">
+        <div class="item-img-box">
+          <img class="item-img" src="https://dummyimage.com/400x256/7828b4/fff" alt="item-image">
+        </div>
+        <div class="item-body">
+          <h5 class="item-title">I have hinted that I would often jerk poor Queequeg from between the wha.</h5>
+          <div class="item-text">
+            <p>In the tumultuous business of cutting-in and attending to a whale, there is much running backwards and forwards among the crew. Now hands are wanted here, and then again hands are wanted there. There is no staying in any one place; for at one and the same time everything has to be done everywhere. It is much the same with him who endeavors the description of the scene. We must now retrace our way a little. It was mentioned that up.</p>
+          </div>
+          <div class="author-tag">
+            <div class="author">Landon Powers</div>
+            <div class="item-tag">Entertainment</div>
+            </div>
+          <div class="item-imformation">
+            <div class="item-location">
+              <i class="fas fa-map-marker-alt"></i>
+              <span class="imformation">Kaohsiung City</span>
+            </div>
+            <div class="item-date">
+              <i class="far fa-calendar-alt"></i>
+              <span class="imformation">2018/5/24 - 2018/5/31</span>
+            </div>
+          </div>
+          </div>
+        </div>
+      <div class="page-position">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination">
+            <li class="page-item disabled">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+                <span class="sr-only">Previous</span>
+              </a>
+            </li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="#">5</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+                <span class="sr-only">Next</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div> 
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+</body>
+</html>
